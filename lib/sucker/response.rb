@@ -13,7 +13,7 @@ module Sucker
     attr_accessor :code
 
     def initialize(response)
-      self.body = response.body
+      self.body = response.body.content
       self.code = response.code
     end
 

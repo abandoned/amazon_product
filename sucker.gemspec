@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.rubyforge_project = 'sucker'
 
   {
-    'httpclient'          => '~> 2.2.0.2',
+    'httpclient'          => '~> 2.1.7.2',
     'nokogiri'            => '~> 1.4.0'
   }.each do |lib, version|
     s.add_runtime_dependency lib, version
