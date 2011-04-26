@@ -48,7 +48,7 @@ module Sucker
       errors.count > 0
     end
 
-    # A shorthand that queries for a specifed attribute, yields to a given
+    # A shorthand that queries for a specified attribute, yields to a given
     # block matching documents, and collects final values.
     #
     #   items = response.map('Item') { |item| # do something }
