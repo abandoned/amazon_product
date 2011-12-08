@@ -30,7 +30,7 @@ Search for something.
     req << { :operation    => 'ItemSearch',
              :search_index => 'All',
              :keywords     => 'George Orwell' }
-    res = request.get
+    res = req.get
 
 Or use a shorthand.
 
