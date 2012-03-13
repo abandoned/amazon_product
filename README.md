@@ -1,3 +1,8 @@
+*This library is no longer in active development. For a trimmed version, check
+out [Vacuum] [vacuum].*
+
+***
+
 # Amazon Product
 
 Amazon Product is a [Nokogiri][1]-backed Ruby wrapper to the [Amazon
@@ -51,20 +56,12 @@ Quickly drop down to a particular node.
 
     res['Item']
 
-[Please see the project page] [4] for further detail.
-
 ## Adapters
 
 Amazon Product defaults to the Net::HTTP library but can be configured
 to use Curb or EM-HTTP-Request.
 
-## Branding is a delicate art
-
-Amazon Product descends from [Sucker][5]. While I still like the vacuum
-metaphor, the name felt tiring after a while.
-
 [1]: http://nokogiri.org/
 [2]: https://affiliate-program.amazon.co.uk/gp/advertising/api/detail/main.html
 [3]: https://github.com/hakanensari/amazon_product/blob/master/lib/amazon_product/operations.rb
-[4]: http://code.papercavalier.com/amazon_product/
-[5]: http://github.com/papercavalier/sucker/
+[vacuum]: https://github.com/hakanensari/vacuum
