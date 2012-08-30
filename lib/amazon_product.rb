@@ -1,7 +1,8 @@
 require 'nokogiri'
+require 'eggnog'
 require 'openssl'
 
-%w{builder error locale operations request response}.each do |f|
+%w{error locale operations request response}.each do |f|
   require "amazon_product/#{f}"
 end
 
